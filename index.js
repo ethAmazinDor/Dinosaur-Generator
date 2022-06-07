@@ -10,6 +10,7 @@ const fetch = require('node-fetch')//allows you to use the fetch function in nod
 app.use(express.static('public'))
 
 app.listen(port, () => {
+
     console.log(`Example app listning on port: ${port}`)
 })
 
